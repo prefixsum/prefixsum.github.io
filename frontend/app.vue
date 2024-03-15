@@ -6,7 +6,14 @@
       class="pointer-events-none absolute inset-x-0 top-0 z-20 flex justify-center overflow-hidden"
     >
       <div class="flex flex-none">
-        <img src="/light.png" alt="Light rays" />
+        <NuxtPicture
+          width="2296"
+          height="668"
+          alt="Light rays"
+          format="webp"
+          src="/light.png"
+          preload
+        />
       </div>
     </div>
     <div
@@ -58,7 +65,7 @@
 </template>
 
 <script setup lang="ts">
-import { useSeoMeta } from "unhead";
+const img = useImage();
 
 useSeoMeta({
   title: "prefixsum",
