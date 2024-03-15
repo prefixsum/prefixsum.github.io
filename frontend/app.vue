@@ -65,7 +65,11 @@
 </template>
 
 <script setup lang="ts">
-const img = useImage();
+useHead({
+  htmlAttrs: {
+    lang: "en",
+  },
+});
 
 useSeoMeta({
   title: "prefixsum",
