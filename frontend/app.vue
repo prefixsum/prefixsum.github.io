@@ -56,3 +56,21 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { useSeoMeta } from "unhead";
+
+useSeoMeta({
+  title: "prefixsum",
+  description: "is that an edge node or are you just glad to see me",
+  ogTitle: "prefixsum",
+  ogDescription: "is that an edge node or are you just glad to see me",
+  ogImage: "/prefixsum_preview_640_320.png",
+  twitterCard: "summary_large_image",
+  twitterSite: "@prefixsum",
+  twitterCreator: "@prefixsum",
+  twitterTitle: "prefixsum",
+  twitterDescription: "is that an edge node or are you just glad to see me",
+  twitterImage: "/prefixsum_preview_640_320.png",
+});
+</script>
