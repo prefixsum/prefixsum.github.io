@@ -76,12 +76,12 @@ useSeoMeta({
   description: "is that an edge node or are you just glad to see me",
   ogTitle: "prefixsum",
   ogDescription: "is that an edge node or are you just glad to see me",
-  ogImage: "/prefixsum_preview_640_320.png",
+  ogImage: "https://prefixsum.github.io/prefixsum_preview_640_320.png",
   twitterCard: "summary_large_image",
   twitterSite: "@prefixsum",
   twitterCreator: "@prefixsum",
   twitterTitle: "prefixsum",
   twitterDescription: "is that an edge node or are you just glad to see me",
-  twitterImage: "/prefixsum_preview_640_320.png",
+  twitterImage: "https://prefixsum.github.io/prefixsum_preview_640_320.png",
 });
 </script>
