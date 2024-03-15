@@ -24,7 +24,7 @@
       </h1>
     </div>
     <div class="flex justify-center">
-      <ul class="flex items-center space-x-8">
+      <div class="flex items-center space-x-8">
         <a
           href="https://x.com/prefixsum"
           class="text-slate-400 duration-100 hover:text-slate-50"
@@ -59,7 +59,7 @@
             />
           </svg>
         </a>
-      </ul>
+      </div>
     </div>
   </div>
 </template>
