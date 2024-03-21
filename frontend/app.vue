@@ -215,7 +215,7 @@
           </a>
           <div class="h-3 border-l border-slate-500"></div>
           <a
-            href="https://discord.gg/grVkhEA8"
+            href="https://discord.gg/TGSwDNVhsQ"
             class="p-1 text-slate-400 duration-100 hover:text-slate-50"
           >
             <svg
