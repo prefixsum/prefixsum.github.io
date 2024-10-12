@@ -4,9 +4,19 @@
     :path="$route.path"
     find="one"
   >
-    <ContentRenderer :value="data">
-      <h1>{{ data.title }}</h1>
-      <ContentRendererMarkdown :value="data" />
-    </ContentRenderer>
+    <HomeHeading class="pt-5" />
+    <div class="pt-5">
+      <ContentRenderer :value="data">
+        <NuxtLink
+          to="#"
+          class="hover:underline"
+        >
+          <span class="text-slate-100">&gt; {{ data.title }}</span> <span class="text-slate-500">{{ data.dateCreated }}</span>
+        </NuxtLink>
+        <div class="text-sm pt-3">
+          <ContentRendererMarkdown :value="data" />
+        </div>
+      </ContentRenderer>
+    </div>
   </ContentQuery>
 </template>
