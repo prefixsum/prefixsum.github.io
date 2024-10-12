@@ -1,9 +1,9 @@
 <template>
-  <div class="text-slate-100 text-sm font-mono">
+  <div class="text-slate-100 text-sm">
     <h2>
       more links
     </h2>
-    <ol class="list-disc list-inside pt-2 space-y-1 text-slate-200">
+    <ol class="list-disc list-inside pt-2 space-y-1">
       <li class="text-xs">
         <a href="https://tiktok.com/@prefixsum">tiktok.com/@prefixsum</a>
       </li>

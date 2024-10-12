@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-950 min-h-screen">
+  <div class="bg-slate-950 min-h-screen text-slate-200 font-mono">
     <div
       class="mx-auto"
     >
