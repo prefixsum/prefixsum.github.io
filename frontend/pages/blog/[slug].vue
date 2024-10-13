@@ -8,13 +8,20 @@
     <div class="pt-5">
       <ContentRenderer :value="data">
         <NuxtLink
-          to="#"
+          :to="data._path"
           class="hover:underline"
         >
-          <span class="text-slate-100">&gt; {{ data.title }}</span> <span class="text-slate-500">{{ data.dateCreated }}</span>
+          <h1 class="text-slate-50 pb-2">
+            &gt; {{ data.title }}
+            <span class="text-slate-500">
+              {{ data.dateCreated }}
+            </span>
+          </h1>
         </NuxtLink>
-        <div class="text-sm pt-3">
-          <ContentRendererMarkdown :value="data" />
+        <div class="text-sm">
+          <ContentRendererMarkdown
+            :value="data"
+          />
         </div>
       </ContentRenderer>
     </div>
