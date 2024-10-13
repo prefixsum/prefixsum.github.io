@@ -27,3 +27,9 @@
 <script setup lang="ts">
 const date = new Date().getFullYear()
 </script>
+
+<style>
+body {
+  overflow-y: scroll;
+}
+</style>
