@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as o,i as c}from"./BCVA034M.js";const r={},a={class:"text-sm pb-3 text-slate-300"};function n(e,_){return s(),o("p",a,[c(e.$slots,"default")])}const f=t(r,[["render",n]]);export{f as default};
