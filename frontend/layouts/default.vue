@@ -4,8 +4,7 @@
       class="mx-auto"
     >
       <div
-        class="mx-auto"
-        style="max-width: 704px;"
+        class="mx-auto max-w-xl"
       >
         <div class="flex justify-center overflow-hidden">
           <PrefixsumArt />
